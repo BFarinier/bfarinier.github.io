@@ -1,0 +1,51 @@
+<!--
+  0. Do whatever you want with this file.
+-->
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="data:,">
+    <link href="../static/style.css" type="text/css" rel="stylesheet"/>
+    <title>index - Benjamin Farinier</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="logo">Benjamin Farinier</h1>
+
+      <nav class="navigation">
+        <div id="bar"><ul><li><a href="../index.html">Home</a></li></ul></div>
+      </nav>
+    </header>
+
+    <section>
+      <h1>Arrays Made Simpler: An Efficient, Scalable and Thorough Preprocessing</h1>
+<p>Benjamin Farinier, Robin David, Sébastien Bardin, and Matthieu Lemerre</p>
+<p>The theory of arrays has a central place in software verification due to its
+ability to model memory or data structures. Yet, this theory is known to be hard
+to solve in both theory and practice, especially in the case of very long
+formulas coming from unrolling-based verification methods. Standard
+simplification techniques à la read-over-write suffer from two main drawbacks:
+they do not scale on very long sequences of stores, and they miss many
+simplification opportunities because of a too crude syntactic (dis-)equality
+reasoning.</p>
+<p>We propose a new approach to array constraint simplification based on a new
+dedicated data structure together with original simplifications and low-cost
+reasoning. The technique is efficient, scalable and it yields significant
+simplification. The impact on formula resolution is always positive, and it can
+be dramatic on some specific classes of problems, e.g. very long formula or
+binary-level symbolic execution. While currently implemented as a preprocessing
+step, the approach would benefit from a deeper integration inside a dedicated
+array solver.</p>
+<p>[ <a href="https://easychair.org/publications/open/lSLN">final.pdf</a>
+| <a href="https://github.com/binsec/binsec/archive/lpar.zip">binsec.tar.gz</a>
+| <a href="http://storage.farinier.org/lpar2018/bench.tar.gz">bench.tar.gz</a>
+]</p>
+
+    </section>
+
+    <footer class="footer"></footer>
+  </body>
+</html>
+
